@@ -40,6 +40,7 @@ a {
     /* border: 1px solid green; */
 
 }
+
 .hero-left {
     width: 630px;
     /* border: 1px solid blue; */
@@ -49,9 +50,9 @@ a {
 
 .hero-right {
     /* border: 1px solid red; */
-   position: absolute;
-   right: 0;
-   z-index: -1;
+    position: absolute;
+    right: 0;
+    z-index: -1;
 }
 
 .hero-small-text {
@@ -145,43 +146,76 @@ main {
 
 }
 
-.services-section{
+.services-section {
     padding-top: 105px;
     position: relative;
 }
 
-.card{
+.card {
     width: 267px;
     height: 314px;
     /* border: 1px solid black; */
     padding: 44px 42px;
     border-radius: 36px;
     box-shadow: 2px 4px 4px grey;
-    
+
 }
 
-.plus-img{
+.plus-img {
     position: absolute;
     top: 105px;
     right: -65px;
 }
 
-.card-text{
+.card-text {
     text-align: justify;
 }
 
-.card-h-text{
+.card-h-text {
     font-weight: 600;
-font-size: 20px;
-line-height: 27px;
-text-align: center;
-color: #1E1D4C;
-margin: 34px 0 15px;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color: #1E1D4C;
+    margin: 34px 0 15px;
 }
 
-.card-img{
+.card-img {
     height: 80px;
     width: 80px;
     display: block;
     margin: 0 auto;
+}
+
+.dest-sml-txt {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #5E6282;
+    margin-bottom: 8px;
+}
+.dest-large-txt{
+    font-family: 'Volkhov';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 64px;
+text-align: center;
+text-transform: capitalize;
+color: #14183E;
+}
+.dest-places{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+}
+.dest{
+    border: 1px solid blue;
+}
+.dest-places-txt{
+    display: flex;
 }
