@@ -187,6 +187,12 @@ main {
     margin: 0 auto;
 }
 
+.destination {
+    /* border: 1px solid black; */
+    margin-top: 123px;
+    margin-bottom: 186px;
+}
+
 .dest-sml-txt {
     font-family: 'Poppins';
     font-style: normal;
@@ -197,25 +203,74 @@ main {
     color: #5E6282;
     margin-bottom: 8px;
 }
-.dest-large-txt{
+
+.dest-large-txt {
     font-family: 'Volkhov';
-font-style: normal;
-font-weight: 700;
-font-size: 50px;
-line-height: 64px;
-text-align: center;
-text-transform: capitalize;
-color: #14183E;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 64px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #14183E;
 }
-.dest-places{
+.dest-txt{
+    margin-bottom: 60px;
+}
+.bg-img {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 350px;
+    /* border: 1px solid green; */
+}
+
+.bg-img-1 {
+    background-image: url("./images/roman.jpg");
+
+}
+
+.bg-img-2 {
+    background-image: url("./images/uk2.jpg");
+}
+
+.bg-img-3 {
+    background-image: url("./images/france.jpeg");
+}
+
+.dest-p-text {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    margin-top: 60px;
+    padding: 20px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 124.5%
 }
-.dest{
-    border: 1px solid blue;
+
+.dest-p-out-text {
+    padding: 0 40px 25px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 124.5%;
 }
-.dest-places-txt{
+
+.dest-places {
     display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    /* margin-top: 60px; */
+    /* width: 200px; */
+    /* border: 1px solid red; */
+}
+
+.dest {
+    /* border: 1px solid blue; */
+    width: 350px;
+    border-radius: 24px;
+    box-shadow: 0px 0px 20px 5px grey;
+    overflow: hidden;
+}
+
+.dest-places-txt {
+    /* display: flex; */
 }
