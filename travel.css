@@ -274,3 +274,12 @@ main {
 .dest-places-txt {
     /* display: flex; */
 }
+.steps{
+    margin-bottom: 15px;
+    font-weight: 600;
+font-size: 18px;
+line-height: 27px;
+color: #5E6282;
+/* text-align: center; */
+
+}
